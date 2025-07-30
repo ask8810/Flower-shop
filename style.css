@@ -52,7 +52,7 @@ header li a {
 }
 
 .icon ul {
-    width: 100%;
+    max-width: 100%;
 }
 
 .icon img {
@@ -236,7 +236,6 @@ main img {
     padding: 10px 100px;
     color: white;
     background: linear-gradient(90deg, rgb(14, 25, 33)0%, rgb(240, 185, 225)50%, rgb(231, 71, 186))100%;
-    /* background-size: 200% 100%; */
     font-size: 1rem;
 }
 
@@ -325,8 +324,10 @@ main img {
 
     #bottom img {
         width: 200px;
-        height: 150px;
-        display: block;
+        height: 80px;
+        object-fit: cover;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .box--1 {
